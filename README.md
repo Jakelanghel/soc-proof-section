@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./public/screenshot-mobile.png){: width="300px"}
-![Desktop](./public/screenshot-desktop.png){: width="300px"}
+<img src="./public/screenshot-mobile.png" alt="Desktop View" width="300">
+<img src="./public/screenshot-desktop.png" alt="Mobile View" width="300">
 
 ### Links
 
