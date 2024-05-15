@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledReviews = styled.main`
+export const StyledReviews = styled.div`
   background-color: var(--light-magenta);
   text-align: center;
   border-radius: 10px;
