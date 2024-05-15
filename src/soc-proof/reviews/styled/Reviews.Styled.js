@@ -20,4 +20,16 @@ export const StyledReviews = styled.main`
   .ratings {
     font-weight: 700;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+
+    .container-stars {
+      margin: 0;
+    }
+  }
 `;

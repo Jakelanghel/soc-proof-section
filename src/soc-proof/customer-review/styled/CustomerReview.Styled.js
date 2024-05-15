@@ -37,4 +37,8 @@ export const StyledCustomerReview = styled.div`
     font-weight: 500;
     color: var(--light-magenta);
   }
+
+  @media screen and (min-width: 1200px) {
+    padding: 2.75rem;
+  }
 `;

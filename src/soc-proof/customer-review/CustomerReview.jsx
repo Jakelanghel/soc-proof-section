@@ -2,9 +2,9 @@ import propTypes from "prop-types";
 import { StyledCustomerReview } from "./styled/CustomerReview.Styled";
 
 const CustomerReview = (props) => {
-  const { img, name, txt } = props;
+  const { img, name, txt, className } = props;
   return (
-    <StyledCustomerReview>
+    <StyledCustomerReview className={className}>
       <div className="container-profile">
         <img src={img} alt="profile image" className="profile-img" />
         <div className="container-name">
@@ -22,6 +22,7 @@ CustomerReview.propTypes = {
   img: propTypes.string.isRequired,
   name: propTypes.string.isRequired,
   txt: propTypes.string.isRequired,
+  className: propTypes.string.isRequired,
 };
 
 export default CustomerReview;

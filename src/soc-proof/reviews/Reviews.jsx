@@ -4,9 +4,9 @@ import star from "../../assets/icon-star.svg";
 import { StyledReviews } from "./styled/Reviews.Styled";
 
 const Reviews = (props) => {
-  const { txt } = props;
+  const { txt, className } = props;
   return (
-    <StyledReviews>
+    <StyledReviews className={className}>
       <div className="container-stars">
         <img src={star} alt="star" className="star-icon" />
         <img src={star} alt="star" className="star-icon" />
@@ -21,6 +21,7 @@ const Reviews = (props) => {
 
 Reviews.propTypes = {
   txt: propTypes.string.isRequired,
+  className: propTypes.string,
 };
 
 export default Reviews;
