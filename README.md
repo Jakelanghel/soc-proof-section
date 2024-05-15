@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshot
 
 <img src="./public/screenshot-mobile.png" alt="Desktop View" width="300">
-<img src="./public/screenshot-desktop.png" alt="Mobile View" width="500">
+<img src="./public/screenshot-desktop.png" alt="Mobile View" width="500" height="400">
 
 ### Links
 
